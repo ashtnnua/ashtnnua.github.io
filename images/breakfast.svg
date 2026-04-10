@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 768" fill="none">
+  <defs>
+    <linearGradient id="petal-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(100,210,170,0.5)"/>
+      <stop offset="100%" stop-color="rgba(80,180,150,0.25)"/>
+    </linearGradient>
+  </defs>
+  <!-- Soft glow circle -->
+  <circle cx="384" cy="384" r="280" fill="rgba(100,200,170,0.06)"/>
+  <!-- Breathing rings -->
+  <circle cx="384" cy="384" r="240" fill="none" stroke="rgba(100,200,170,0.12)" stroke-width="2" stroke-dasharray="16 10"/>
+  <circle cx="384" cy="384" r="200" fill="none" stroke="rgba(100,200,170,0.08)" stroke-width="1.5" stroke-dasharray="10 8"/>
+  <!-- Center petal -->
+  <path d="M384 440 Q360 320 384 200 Q408 320 384 440 Z" fill="rgba(100,210,170,0.45)" stroke="rgba(100,210,170,0.6)" stroke-width="2.5"/>
+  <!-- Left petal -->
+  <path d="M384 440 Q290 360 300 240 Q330 310 384 330 Z" fill="rgba(100,210,170,0.38)" stroke="rgba(100,210,170,0.55)" stroke-width="2.5"/>
+  <!-- Right petal -->
+  <path d="M384 440 Q478 360 468 240 Q438 310 384 330 Z" fill="rgba(100,210,170,0.32)" stroke="rgba(100,210,170,0.55)" stroke-width="2.5"/>
+  <!-- Far left petal -->
+  <path d="M384 455 Q245 400 225 270 Q280 350 384 380 Z" fill="rgba(100,210,170,0.22)" stroke="rgba(100,210,170,0.4)" stroke-width="2"/>
+  <!-- Far right petal -->
+  <path d="M384 455 Q523 400 543 270 Q488 350 384 380 Z" fill="rgba(100,210,170,0.22)" stroke="rgba(100,210,170,0.4)" stroke-width="2"/>
+  <!-- Center dot -->
+  <circle cx="384" cy="425" r="10" fill="rgba(100,210,170,0.55)"/>
+  <!-- Base arcs -->
+  <path d="M330 475 Q384 510 438 475" fill="none" stroke="rgba(100,210,170,0.4)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M300 505 Q384 550 468 505" fill="none" stroke="rgba(100,210,170,0.25)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M275 530 Q384 580 493 530" fill="none" stroke="rgba(100,210,170,0.12)" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
